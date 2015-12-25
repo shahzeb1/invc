@@ -11,8 +11,8 @@ program
 .option('-c, --client [client]', 'The client for which the task has just been completed.')
 .option('-h, --hours <n>', 'Number of hours spent on task.', parseInt)
 .option('-m, --minutes <n>', 'Number of minutes spent on task.', parseInt)
-.option('--fetch <id>', 'Fetch information for particular invoiced item')
-.option('--get <client>', 'Get all the invoiced items for a client')
+.option('--fetch [id]', 'Fetch information for particular invoiced item')
+.option('--get [client]', 'Get all the invoiced items for a client')
 .parse(process.argv);
 
 // Declare colors for the terminal
