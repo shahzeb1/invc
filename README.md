@@ -20,18 +20,18 @@ Create a new app on [Parse](http://parse.com). Then place your application ID an
 ```
 $ invc --help
 
-  Usage: invc [options]
+Usage: invc [options]
 
-    Options:
+Options:
 
-        -h, --help                     output usage information
-	    -V, --version                  output the version number
-	        -t, --task [task description]  Add the message for the completed task.
-		    -c, --client [client]          The client for which the task has just been completed.
-		        -h, --hours <n>                Number of hours spent on task.
-			    -m, --minutes <n>              Number of minutes spent on task.
-			        --fetch [id]                   Fetch information for particular invoiced item
-				    --get [client]                 Get all the invoiced items for a client
+-h, --help                     output usage information
+-V, --version                  output the version number
+-t, --task [task description]  Add the message for the completed task.
+-c, --client [client]          The client for which the task has just been completed.
+-h, --hours <n>                Number of hours spent on task.
+-m, --minutes <n>              Number of minutes spent on task.
+--fetch [id]                   Fetch information for particular invoiced item
+--get [client]                 Get all the invoiced items for a client
 ```
 
 ## License
