@@ -4,12 +4,12 @@
 - Fast and easy to use
 - Connects to your own Parse database
 
-[![asciicast](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9.png)](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9?speed=2&theme=solarized-dark&size=medium)
+[![asciicast](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9.png)](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9?speed=2&theme=solarized-dark&size=medium&autoplay=1)
 
 ## Install
 
 1. `$ npm install --save invc`
-2. Create a new app for yourself on [Parse](http://parse.com). Then place your application ID and javascript key in `settings.default.js`. Save this as a new file called `settings.js`.
+2. Create a new app for yourself on [Parse](http://parse.com). Then place your application ID and javascript key in `settings.default.js`. Save `settings.default.js` as a new file called `settings.js`.
 
 
 ## Usage
