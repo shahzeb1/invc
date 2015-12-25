@@ -1,5 +1,5 @@
 # invc
-## A free invoicing command-line based software.
+## A free invoicing command-line based program which connects to your own instance of [Parse](http://parse.com).
 
 - Fast and easy to use
 - Connects to your own Parse database
