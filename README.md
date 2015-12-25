@@ -1,18 +1,15 @@
 # invc
-## A free invoicing command-line based program which connects to your own instance of [Parse](http://parse.com).
+## A free invoicing command-line based program which uses [Parse](http://parse.com).
 
 - Fast and easy to use
 - Connects to your own Parse database
 
-[![asciicast](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9.png)](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9?speed=2&theme=solarized-dark)
+[![asciicast](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9.png)](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9?speed=2&theme=solarized-dark&size=medium)
 
 ## Install
 
-```
-$ npm install --save invc
-```
-#### Add your Parse settings:
-Create a new app on [Parse](http://parse.com). Then place your application ID and javascript key in `settings.default.js`. Save this as a new file called `settings.js`.
+1. `$ npm install --save invc`
+2. Create a new app for yourself on [Parse](http://parse.com). Then place your application ID and javascript key in `settings.default.js`. Save this as a new file called `settings.js`.
 
 
 ## Usage
@@ -33,6 +30,15 @@ Options:
 --fetch [id]                   Fetch information for particular invoiced item
 --get [client]                 Get all the invoiced items for a client
 ```
+
+## Todo
+
+- Add ability to generate PDF for the client using the `$ invc --generate -c Nasa`
+- Mark items are invoiced
+- Push this to NPM
+- Maybe clean up `invc.js` into cleaner modules
+
+PR welcome! :smile:
 
 ## License
 
