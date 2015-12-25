@@ -4,6 +4,7 @@
 - Fast and easy to use
 - Connects to your own Parse database
 
+[![asciicast](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9.png)](https://asciinema.org/a/8pjhlts97a9n75c4j406zhdp9)
 
 ## Install
 
